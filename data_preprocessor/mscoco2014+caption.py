@@ -9,6 +9,7 @@ from os.path import exists
 class InstructData:
 
     def __init__(self, args):
+        print("Current Working Directory : ",os.getcwd())
         self.train_dir = './raw_datasets/MSCOCO2014/annotations/captions_train2014.json'
         self.val_dir = './raw_datasets/MSCOCO2014/annotations/captions_val2014.json'
         self.train_img_dir = './raw_datasets/MSCOCO2014/train2014'

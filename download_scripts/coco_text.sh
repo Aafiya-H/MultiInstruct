@@ -1,4 +1,4 @@
-cd $RAW_DATASETS
+cd Datasets
 
 echo "Downloading COCO Text..."
 

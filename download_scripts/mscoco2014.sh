@@ -1,4 +1,4 @@
-cd $RAW_DATASETS
+cd raw_datasets/
 
 mkdir MSCOCO2014
 cd MSCOCO2014
