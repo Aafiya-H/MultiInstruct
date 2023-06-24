@@ -8,7 +8,7 @@ max_num_test=$3
 
 pwd
 
-python data_preprocessor/mscoco2014+caption.py --out_data_dir training_data/mscoco2014+image_caption --task_type image_caption --num_train ${max_num_train} --num_val ${max_num_dev}
+#python data_preprocessor/mscoco2014+caption.py --out_data_dir training_data/mscoco2014+image_caption --task_type image_caption --num_train ${max_num_train} --num_val ${max_num_dev}
 
 # python data_preprocessor/mscoco2014+object_grounding.py --out_data_dir training_data/mscoco2014+object_grounding  --task_type object_grounding --num_train ${max_num_train} --num_val ${max_num_dev}
 
@@ -48,13 +48,13 @@ python data_preprocessor/mscoco2014+caption.py --out_data_dir training_data/msco
 
 # python data_preprocessor/vizwiz+image_quality.py --out_data_dir training_data/vizwiz+image_quality --task_type image_quality --num_train ${max_num_train} --num_val ${max_num_dev}
 
-# # python data_preprocessor/wikihow.py --out_data_dir training_data/wikihow+next_step --task_type wikihow_next_step --num_train ${max_num_train} --num_val ${max_num_dev}
+python data_preprocessor/wikihow.py --out_data_dir training_data/wikihow+next_step --task_type wikihow_next_step --num_train ${max_num_train} --num_val ${max_num_dev}
 
-# # python data_preprocessor/wikihow.py --out_data_dir training_data/wikihow+text_image_step_order --task_type wikihow_text_image_step_order --num_train ${max_num_train} --num_val ${max_num_dev}
+python data_preprocessor/wikihow.py --out_data_dir training_data/wikihow+text_image_step_order --task_type wikihow_text_image_step_order --num_train ${max_num_train} --num_val ${max_num_dev}
 
-# # python data_preprocessor/wikihow.py --out_data_dir training_data/wikihow+image_text_step_order --task_type wikihow_image_text_step_order --num_train ${max_num_train} --num_val ${max_num_dev}
+python data_preprocessor/wikihow.py --out_data_dir training_data/wikihow+image_text_step_order --task_type wikihow_image_text_step_order --num_train ${max_num_train} --num_val ${max_num_dev}
 
-# # python data_preprocessor/wikihow.py --out_data_dir training_data/wikihow+immediate_next_step_selection --task_type wikihow_immediate_next_step_selection --num_train ${max_num_train} --num_val ${max_num_dev}
+python data_preprocessor/wikihow.py --out_data_dir training_data/wikihow+immediate_next_step_selection --task_type wikihow_immediate_next_step_selection --num_train ${max_num_train} --num_val ${max_num_dev}
 
 # python data_preprocessor/mocheg.py --out_data_dir training_data/mocheg+multimodal_factual_checking --task_type multimodal_factual_checking --num_train ${max_num_train} --num_val ${max_num_dev}
 
